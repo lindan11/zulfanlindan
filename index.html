@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!----===== Boxicons CSS ===== -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="Untitled-1.png" alt="" />
+          </span>
+
+          <div class="text logo-text">
+            <span class="name">M zulfan lindan</span>
+            <span class="profession">Conten Creator</span>
+          </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="text" placeholder="Search..." />
+          </li>
+
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#bagian-blog">
+                <i class="bx bx-book-content icon"></i>
+                <span class="text nav-text">Blog</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#bagian-kontak">
+                <i class="bx bxs-contact icon"></i>
+                <span class="text nav-text">Contac</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="https://drive.google.com/file/d/11B5PSA81NYhxXi4QzVROAzXfpJwWe2S2/view">
+                <i class="bx bx-pie-chart-alt icon"></i>
+                <span class="text nav-text">My cv</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-content">
+          <li class="">
+            <a href="#"> </a>
+          </li>
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="text">Home</div>
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>I am mohammad zulfan lindan</h1>
+          <p>And I'm a conten creator</p>
+        </div>
+      </div>
+      <style>
+        * {
+          box-sizing:border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+          padding: 64px;
+        }
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both
+        }
+        
+        .column-66 {
+          float: left;
+          width: 66.66666%;
+          padding: 20px;
+        }
+        
+        .column-33 {
+          float: left;
+          width: 33.33333%;
+          padding: 20px;
+        }
+        
+        .large-font {
+          font-size: 48px;
+        }
+        
+        .xlarge-font {
+          font-size: 64px
+        }
+        
+        .button {
+          border: none;
+          color: white;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          background-color: #04AA6D;
+        }
+        
+        img {
+          display: block;
+          height: auto;
+          max-width: 100%;
+        }
+        
+        @media screen and (max-width: 1000px) {
+          .column-66,
+          .column-33 {
+            width: 100%;
+            text-align: center;
+          }
+          img {
+            margin: auto;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        
+        
+        <div class="container">
+          <div class="row">
+            <div class="column-66">
+              <h1 class="xlarge-font" id="bagian-blog"><b>Pakai</b></h1>
+              <h1 class="large-font" style="color:#358873;"><b>situs iniii</b></h1>
+              <p><span style="font-size:36px">buat cari kombinasi warna yang indah.</span> Menurut psikologi, warna dapat menggambarkan suasana hati dan memengaruhi emosi seseorang. Tidak heran jika pemilihan kombinasi warna yang salah bisa menimbulkan tanggapan yang kurang baik. Dari berbagai banyak warna di dunia,</p>
+              <button class="button">Read More</button>
+            </div>
+            <div class="column-33">
+                <img src="palet warna-07.jpg" width="335" height="471">
+            </div>
+          </div>
+        </div>
+        
+       
+        <div class="container" style="background-color:#f1f1f1">
+          <div class="row">
+            <div class="column-33">
+              <img src="daun.jpg" alt="App" width="335" height="471">
+            </div>
+            <div class="column-66">
+              <h1 class="xlarge-font"><b>Bingung</b></h1>
+              <h1 class="large-font" style="color:#358873;"><b>Cari tempat download wallpaper?</b></h1>
+              <p><span style="font-size:24px">unsplash solusinya</span> Unsplash adalah salah satu platform yang mewadahi kita untuk berbagi, khususnya karya-karya foto yang kita miliki. Saya katakan wadah berbagi karena unsplash memang tempat para fotografer untuk membagikan fotonya secara cuma-cuma. Dengan demikian, siapapun dapat memanfaatkan foto yang tersedia di unsplash secara gratis.</p>
+              <button class="button" style="background-color:#358873">Read More</button>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="container">
+          <div class="row">
+            <div class="column-66">
+              <h1 class="xlarge-font"><b>Rekomendasi </b></h1>
+              <h1 class="large-font" style="color:#358873;"><b>aplikasi buat edit foto mobile</b></h1>
+              <p><span style="font-size:36px">Google snapseed</span> Snapseed adalah aplikasi pengeditan foto untuk iOS dan Android yang memungkinkan pengguna menyempurnakan foto dan menerapkan filter digital. Itu dibuat oleh Nik Software, dan sekarang dimiliki oleh Google.</p>
+              <button class="button">Download Application</button>
+            </div>
+            <div class="column-33">
+                <img src="snap.png" width="335" height="471" >
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+       
+        input[type="text"],
+        select,
+        textarea {
+          width: 700%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+
+        input[type="submit"] {
+          background-color: #358873;
+
+          color: #e4e9f7;
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+          background-color: #45a049;
+        }
+
+       
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 50px;
+        }
+
+       
+        .column {
+          float: left;
+          width: 50%;
+          margin-top: 6px;
+          padding: 20px;
+        }
+
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+       
+        @media screen and (max-width: 600px) {
+          .column,
+          input[type="submit"] {
+            width: 100%;
+            margin-top: 0;
+          }
+        }
+      </style>
+      <div class="container">
+        <div style="text-align: center">
+          <h2 id="bagian-kontak">Contact Us</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="avatar.png" style="width: 70%" />
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Indonesia</option>
+                <option value="canada">Cina</option>
+                <option value="usa">Nganjuk</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height: 170px"></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const body = document.querySelector("body"),
+        sidebar = body.querySelector("nav"),
+        toggle = body.querySelector(".toggle"),
+        searchBtn = body.querySelector(".search-box"),
+        modeSwitch = body.querySelector(".toggle-switch"),
+        modeText = body.querySelector(".mode-text");
+
+      toggle.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      });
+
+      searchBtn.addEventListener("click", () => {
+        sidebar.classList.remove("close");
+      });
+
+      modeSwitch.addEventListener("click", () => {
+        body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          modeText.innerText = "Light mode";
+        } else {
+          modeText.innerText = "Dark mode";
+        }
+      });
+    </script>
+  </body>
+</html>
